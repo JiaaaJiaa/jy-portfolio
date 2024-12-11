@@ -1,0 +1,67 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.profile img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+.profile h1{
+  font-size: 70px;
+  font-weight: 600;
+  width: 70%;
+  margin:10px;
+}
+
+.profile h1 span{
+  background: linear-gradient(270deg, #2af598 10%, #08b3e5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile p{
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.profile-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.profile-contact{
+    padding: 20px 35px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #1BD7BB , #08b3e5 100%);
+    cursor: pointer;
+}
+
+.profile-cv{
+    padding: 20px 35px;
+    border-radius: 50px;
+    /* background: linear-gradient(270deg, #2af598 10%, #08b3e5 100%); */
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.profile-contact:hover, .profile-cv:hover{
+    background: white;
+    color: black;
+}
