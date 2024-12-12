@@ -11,6 +11,7 @@ const Navbar = () => {
                 <li>About Me</li>
                 <li>Education</li>
                 <li>Working Experience</li>
+                <li>Skills</li>
                 <li>Projects</li>
                 <li>Awards</li>
             </ul>
