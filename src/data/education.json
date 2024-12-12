@@ -1,0 +1,33 @@
+[
+    {
+        "logo":"assets/usm.png",
+        "school": "Universiti Sains Malaysia",
+        "course": "Bachelor of Computer Sciences",
+        "date": "Oct, 2020 - Aug, 2024",
+        "desc": [
+            "Majored in Intelligent Computing",
+            "Minored in Management",
+            "CGPA: 3.79 "
+        ]
+    },
+    {
+        "logo":"assets/Kmk.gif",
+        "school": "Kolej Matrikulasi Kedah",
+        "course": "Science Stream (Module 1)",
+        "date": "Jun, 2019 - Apr, 2020",
+        "desc": [
+            "CGPA: 4.00",
+            "MUET: Band 4"
+        ]
+    },
+    {
+        "logo":"assets/sentosa.png",
+        "school": "SMK Sri Sentosa",
+        "course": "Science Stream",
+        "date": "Jan, 2013 - Dec, 2018",
+        "desc": [
+            "Result: 3A+ 2A 5A-"
+        ]
+    }
+
+]

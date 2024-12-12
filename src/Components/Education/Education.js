@@ -3,11 +3,16 @@ import './Education.css';
 import usm from '../../assets/usm.png';
 import kmk from '../../assets/Kmk.gif';
 import smk from '../../assets/sentosa.png';
+import titlebackground from '../../assets/titlebackground.png';
+// import edu from '../../data/education.json';
 
 const Education = () => {
     return ( 
         <div className="education">
-            <h1>Education</h1>
+            <div className="education-title">
+                <h1>Education</h1>
+                <img src={titlebackground} alt="" />
+            </div>
             <div className="education-content">
                 <div className="education-item">
                     <img src={usm} alt="" className="usm"/>
