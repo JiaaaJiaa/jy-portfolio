@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Profile from './Components/AboutMe/Profile';
 import Education from './Components/Education/Education';
 import Working from './Components/Working/Working';
+import Skill from './Components/Skills/Skill';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Profile />
       <Education />
       <Working />
+      <Skill/>
     </div>
   );
 }
