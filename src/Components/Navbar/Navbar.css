@@ -11,6 +11,15 @@
     margin-top: 10px;
 }
 
+.underline{
+    background: linear-gradient(270deg, #2af598 10%, #08b3e5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width:50px;
+    position: relative;
+}
+
 .navbarMenu{
     display:flex;
     align-items:center;
@@ -20,6 +29,24 @@
     font-size: 20px;
 }
 
+.navbarMenu li{
+    /* display: flex;
+    flex-direction: column; */
+    gap:5px;
+    cursor: pointer;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarMenu p{
+    text-decoration: none;
+    color: white;
+}
+
 .navbarMenu li:hover{
     color: #08b3e5;
 }
+
