@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Automating Feedback Suggestion for Written Assignment",
+        "description":"Built a  website that consists of an AI engine that generates feedback suggestions by finding similar text segments with historical feedback from all submissions within the same assignment. It makes grading and providing feedback more efficient.",
+        "skills":["React.js", "Node.js", "Express.js", "Typescript", "Html", "CSS", "Python", "Supabase", "Figma"],
+        "demo":" https://youtu.be/aiXgxcQ360k  ",
+        "source":"https://github.com/JiaaaJiaa/semaklah ",
+        "website":""
+    },
+    {
+        "title":"Assignment Portfolio",
+        "description":"A project that shows resume in a website using WIX ",
+        "skills":["WIX"],
+        "demo":"",
+        "source":"",
+        "website":"https://chingjiaying01.wixsite.com/cat201-assignment-2"
+    },
+    {
+        "title":"Comparative Analysis of Two Predictive Models for Fetal State Classification using Cardiotocography (CTG) data",
+        "description":"A group project that compares Support Vector Machine and Fuzzy Logic System on a Cardiotocography(CTG) data to perform classification for fetal state.",
+        "skills":[" Python", "Machine Learning"],
+        "demo":"",
+        "source":"",
+        "website":"https://express.adobe.com/page/pbMJ4bLB7P7L8/ "
+    },
+    {
+        "title":"English Conjunction Finder",
+        "description":"A group project that creates a program that will search English Conjunction in text.",
+        "skills":["Javascript", "HTML", "CSS"],
+        "demo":"",
+        "source":"https://github.com/JiaaaJiaa/English-Conjunction-Finder",
+        "website":" https://jiaaajiaa.github.io/English-Conjunction-Finder/"
+    },
+    {
+        "title":"Machine Process State (MPS) Detection using OCR",
+        "description":"To detect the process state of machines without SECS/GEM to analyse the machine alarm that will increase the efficiency of the production.",
+        "skills":["Python", "Tesseract"],
+        "demo":"",
+        "source":"",
+        "website":""
+    }
+]
