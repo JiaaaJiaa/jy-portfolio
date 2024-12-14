@@ -8,7 +8,7 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 
 const Project = () => {
     return ( 
-        <div className="Project">
+        <div  id="projects" className="Project">
             <div className="Project-title">
                 <h1>Projects</h1>
                 <img src={titlebackground} alt="" />

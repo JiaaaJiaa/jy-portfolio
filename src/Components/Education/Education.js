@@ -8,7 +8,7 @@ import titlebackground from '../../assets/titlebackground.png';
 
 const Education = () => {
     return ( 
-        <div className="education">
+        <div  id="education" className="education">
             <div className="education-title">
                 <h1>Education</h1>
                 <img src={titlebackground} alt="" />

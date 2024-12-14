@@ -4,7 +4,7 @@ import titlebackground from '../../assets/titlebackground.png';
 
 const Working = () => {
     return ( 
-        <div className="work">
+        <div id="working" className="work">
             <div className="work-title">
                 <h1>Working Experience</h1>
                 <img src={titlebackground} alt="" />
