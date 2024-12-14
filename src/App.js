@@ -6,7 +6,7 @@ import Education from './Components/Education/Education';
 import Working from './Components/Working/Working';
 import Skill from './Components/Skills/Skill';
 import Project from './Components/Project/Project';
-import Award from './Components/Award/Award';
+// import Award from './Components/Award/Award';
 import Footer from './Components/Footer/Footer';
 import './App.css';
 
@@ -19,7 +19,7 @@ function App() {
       <Working />
       <Skill/>
       <Project />
-      <Award />
+      {/* <Award /> */}
       <Footer />
     </div>
   );
