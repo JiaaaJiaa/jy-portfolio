@@ -26,3 +26,40 @@
     right:30px;
     z-index: -1;
 }
+
+.skill-contents{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    text-align: left;
+    /* margin-left: 100px; */
+    /* padding:0px 50px; */
+}
+
+.skill-content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition:0.3s;
+}
+
+.skill-content p{
+    min-width:250px;
+    font-size: 22px;
+    font-weight:500;
+}
+
+.skill-content hr{
+    outline: none;
+    border: none;
+    height: 8px;
+    align-items: left;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #2af598 10%, #08b3e5 100%);
+}
+
+.skill-content:hover {
+    transform: scale(1.05);
+}
