@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo.png';
-import { useState } from 'react';
 import underline from '../../assets/underline.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 

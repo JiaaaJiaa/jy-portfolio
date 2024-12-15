@@ -50,3 +50,51 @@
     color: #08b3e5;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .navbar {
+        margin: 20px 50px;
+    }
+
+    .navbarMenu {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar{
+        margin: 20px 20px
+    }
+    
+    .logo {
+        width: 50px;
+    }
+
+    .navbarMenu {
+        /* flex-direction: column;
+        align-items: flex-start; */
+        gap: 20px;
+        /* width: 100%; */
+    }
+
+    .navbarMenu li {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .underline {
+        width: 40px;
+    }   
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 40px;
+    }
+
+    .navbarMenu {
+        font-size: 18px;
+    }
+}

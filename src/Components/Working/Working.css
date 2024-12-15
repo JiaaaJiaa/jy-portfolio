@@ -85,3 +85,29 @@
     transition: 0.5s;
     border: 4px solid beige;
 }
+
+@media (max-width: 768px) {
+
+    .work {
+        margin: 20px 50px;
+    }
+
+    .work-content {
+        flex-direction: column;
+        /* gap: 20px; */
+        align-items: center;
+    }
+
+    .work-item {
+        width: 320px;
+    }
+
+    .work-title h1{
+        font-size: 40px;
+    }
+
+    .work-title img{
+        bottom:-70px;
+        right:160px;
+    }
+}

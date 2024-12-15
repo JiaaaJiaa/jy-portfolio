@@ -51,15 +51,44 @@
     font-weight:500;
 }
 
-.skill-content hr{
+.skill-progress {
+    display: flex; /* Align hr and percentage horizontally */
+    align-items: center; /* Vertically center hr and percentage */
+    justify-content: space-between;
+    gap: 10px; /* Space between hr and percentage */
+    width: 100%; /* Take full container width */
+}
+
+.skill-progress hr {
     outline: none;
     border: none;
     height: 8px;
     align-items: left;
     border-radius: 50px;
-    background: linear-gradient(270deg, #2af598 10%, #08b3e5 100%);
+    background: linear-gradient(270deg, #1BD7BB , #08b3e5 100%);
+}
+
+.skill-percent {
+    font-size: 18px; /* Adjust text size */
+    color: white; /* Match progress bar color */
 }
 
 .skill-content:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .skill-content {
+        display: flex;
+        flex-direction: column; /* Stack title and progress horizontally */
+        gap: 5px; /* Space between title and progress bar */
+        align-items: flex-start; /* Align content to the left */
+        width: 100%;
+    }
+    
+    .skill-content p {
+        margin: 0; /* Remove default margin */
+        font-size: 20px; /* Adjust font size */
+        color: white; /* Text color */
+    }
 }

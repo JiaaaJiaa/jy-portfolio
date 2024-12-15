@@ -101,3 +101,30 @@
 .education-desc li::marker {
     color: white; 
 }
+
+@media (max-width: 768px) {
+    
+    .education {
+        margin: 20px 50px;
+    }
+
+    .education-content {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .education-item {
+        width: 100%;
+    }
+
+    .education-title h1{
+        font-size: 40px;
+    }
+
+    .education-title img{
+        width: 80px;
+        bottom:-50px;
+        right:80px;
+    }
+}
