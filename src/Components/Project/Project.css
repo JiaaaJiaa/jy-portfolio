@@ -113,3 +113,14 @@
 .project-card-content a:hover {
     color: #08b3e5;
 }
+
+@media (max-width: 480px) {
+
+    .Project-content {
+        gap: 40px;
+    }
+
+    .Project-card {
+        width: 350px;
+    }
+}

@@ -111,3 +111,10 @@
         right:160px;
     }
 }
+
+@media (max-width: 480px) {
+    .work-title img{
+        bottom:-70px;
+        right:120px;
+    }
+}

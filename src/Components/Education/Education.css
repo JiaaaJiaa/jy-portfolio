@@ -108,6 +108,10 @@
         margin: 20px 50px;
     }
 
+    .education-title h1{
+        margin-top:10px;
+    }
+
     .education-content {
         flex-direction: column;
         gap: 20px;
@@ -127,4 +131,6 @@
         bottom:-50px;
         right:80px;
     }
+
 }
+
