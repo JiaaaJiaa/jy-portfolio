@@ -10,11 +10,41 @@ const Skill = () => {
                 <img src={titlebackground} alt="" />
             </div>
             <div className="skill-contents">
-                <div className="skill-content"><p>HTML & CSS</p><hr style={{width:"60%"}} />60%</div>
-                <div className="skill-content"><p>ReactJS & Javascript</p><hr style={{width:"70%"}} />70%</div>
-                <div className="skill-content"><p>Python & R programming</p><hr style={{width:"70%"}} />70%</div>
-                <div className="skill-content"><p>SQL</p><hr style={{width:"80%"}} />80%</div>
-                <div className="skill-content"><p>Tableau & PowerBI</p><hr style={{width:"50%"}} />50%</div>
+                <div className="skill-content">
+                    <p>HTML & CSS</p>
+                    <div className="skill-progress">
+                        <hr style={{width:"60%"}} />
+                        <span className="skill-percent">60%</span>
+                    </div>
+                </div>
+                <div className="skill-content">
+                    <p>ReactJS & Javascript</p>
+                    <div className="skill-progress">
+                        <hr style={{width:"70%"}} />                    
+                        <span className="skill-percent">70%</span>
+                    </div>
+                </div>
+                <div className="skill-content">
+                    <p>Python & R programming</p>
+                    <div className="skill-progress">
+                        <hr style={{width:"70%"}} />                    
+                        <span className="skill-percent">70%</span>
+                    </div>
+                </div>
+                <div className="skill-content">
+                    <p>SQL</p>
+                    <div className="skill-progress">
+                        <hr style={{width:"80%"}} />                    
+                        <span className="skill-percent">80%</span>
+                    </div>
+                </div>
+                <div className="skill-content">
+                    <p>Tableau & PowerBI</p>
+                    <div className="skill-progress">
+                        <hr style={{width:"50%"}} />                    
+                        <span className="skill-percent">50%</span>
+                    </div>
+                </div>
             </div>
         </div>
      );
